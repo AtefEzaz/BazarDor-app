@@ -3,7 +3,7 @@
 # 🛒 বাজার দর · BazarDor
 
 **প্রয়োজনীয় পণ্যের দাম এক নজরে**
-*Daily grocery prices of Bangladesh — rice, lentils, oil, vegetables, fish, meat, eggs & spices — in one place.*
+_Daily grocery prices of Bangladesh — rice, lentils, oil, vegetables, fish, meat, eggs & spices — in one place._
 
 ![Next.js](https://img.shields.io/badge/Next.js-App_Router-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
@@ -42,17 +42,17 @@ It is built with the Next.js App Router, with BetterAuth and MongoDB handling au
 
 ## ✨ Key Features
 
-| | Feature | Description |
-|---|---|---|
-| 📈 | **Live price ticker** | Infinite scrolling strip showing emoji, product name, price per unit and ▲/▼ change percentage. Pauses on hover. |
-| 🔺🔻 | **Today's price movers** | Top 6 products whose price rose and top 6 whose price fell, with colour-coded badges. |
-| 🗂️ | **Category pages** | Browse Rice, Lentils, Oil, Vegetables, Fish, Meat, Egg & Milk and Spices. Includes skeleton loaders and an empty state. |
-| ↕️ | **Smart sorting** | Sort by *Default*, *Price: Low → High* or *High → Low*. Sorting uses real numeric values, so Bengali numerals (১,৮৫০ vs ৯৯) are handled correctly. |
-| 🔐 | **Authentication** | Email/password, Google and GitHub login powered by **BetterAuth** and MongoDB, with toast notifications for every action. |
-| 🛡️ | **Protected product details** | Min / max / average price and a market-wise price table, available only to signed-in users. |
-| 👤 | **My Profile** | View account info, sign out, and update your name from a dedicated page. |
-| 📱 | **Fully responsive** | Works smoothly on mobile, tablet and desktop. |
-| 🚧 | **Custom 404 page** | Friendly message with a "হোম পেজে ফিরে যান" button for any invalid route. |
+|      | Feature                       | Description                                                                                                                                        |
+| ---- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📈   | **Live price ticker**         | Infinite scrolling strip showing emoji, product name, price per unit and ▲/▼ change percentage. Pauses on hover.                                   |
+| 🔺🔻 | **Today's price movers**      | Top 6 products whose price rose and top 6 whose price fell, with colour-coded badges.                                                              |
+| 🗂️   | **Category pages**            | Browse Rice, Lentils, Oil, Vegetables, Fish, Meat, Egg & Milk and Spices. Includes skeleton loaders and an empty state.                            |
+| ↕️   | **Smart sorting**             | Sort by _Default_, _Price: Low → High_ or _High → Low_. Sorting uses real numeric values, so Bengali numerals (১,৮৫০ vs ৯৯) are handled correctly. |
+| 🔐   | **Authentication**            | Email/password, Google and GitHub login powered by **BetterAuth** and MongoDB, with toast notifications for every action.                          |
+| 🛡️   | **Protected product details** | Min / max / average price and a market-wise price table, available only to signed-in users.                                                        |
+| 👤   | **My Profile**                | View account info, sign out, and update your name from a dedicated page.                                                                           |
+| 📱   | **Fully responsive**          | Works smoothly on mobile, tablet and desktop.                                                                                                      |
+| 🚧   | **Custom 404 page**           | Friendly message with a "হোম পেজে ফিরে যান" button for any invalid route.                                                                          |
 
 ## 🧰 Tech Stack
 
@@ -187,7 +187,7 @@ Contributions, issues and feature requests are welcome.
 
 ## 📄 License
 
-© 2026 Atef Akbar Ezaz. All rights reserved.
+© 2026 Md. Atef Akbar Ezaz. All rights reserved.
 
 ---
 

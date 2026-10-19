@@ -2,7 +2,11 @@ import type { Category, Market, Product } from "./types";
 import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from "./fallback";
 
 // Main API first, then the two backups from the assignment README
-const BASES = ["https://openapi.programming-hero.com/api/bazardor"];
+const BASES = [
+  "https://openapi.programming-hero.com/api/bazardor",
+  "https://api.api-store.workers.dev/api/bazardor",
+  "https://api.abcz.workers.dev/api/bazardor",
+];
 
 const EMOJI_BY_CATEGORY: Record<string, string> = {
   chal: "🍚",
