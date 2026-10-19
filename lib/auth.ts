@@ -27,6 +27,13 @@ if (process.env.NODE_ENV !== "production") globalForMongo.mongoClient = client;
 const db = client.db("daily-bazar-dor");
 
 export const auth = betterAuth({
+  account: {
+    accountLinking: {
+      enabled: true,
+      trustedProviders: ["google", "github"],
+    },
+  },
+
   baseURL: process.env.BETTER_AUTH_URL,
   secret: process.env.BETTER_AUTH_SECRET,
   database: mongodbAdapter(db, { client }),
