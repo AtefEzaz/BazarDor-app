@@ -36,7 +36,7 @@
 
 **BazarDor (বাজার দর)** is a fully responsive, Bangla-first web application that helps people track the daily market prices of everyday essentials. Users can see today's price movers, browse products by category, sort by price, and — after signing in — compare prices across different bazars with minimum, maximum and average values.
 
-The project was built as part of the **Programming Hero B14-A7** assignment, using the Next.js App Router with BetterAuth and MongoDB for authentication.
+It is built with the Next.js App Router, with BetterAuth and MongoDB handling authentication.
 
 🔗 **Live site:** https://daily-bazar-dor-beige.vercel.app/
 
@@ -87,7 +87,7 @@ The project was built as part of the **Programming Hero B14-A7** assignment, usi
 
 ## 🔌 Data Source
 
-Product and category data is fetched from the Programming Hero BazarDor API:
+Product and category data is fetched from a public BazarDor REST API:
 
 ```text
 GET /products            # all products
@@ -187,7 +187,7 @@ Contributions, issues and feature requests are welcome.
 
 ## 📄 License
 
-This project was created for educational purposes as part of the Programming Hero course.
+© 2026 Atef Akbar Ezaz. All rights reserved.
 
 ---
 
