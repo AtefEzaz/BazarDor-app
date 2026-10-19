@@ -13,17 +13,32 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)
 
-[🌐 Live Demo](https://YOUR-LIVE-LINK.vercel.app) · [🐛 Report a Bug](https://github.com/YOUR-USERNAME/YOUR-REPO/issues) · [✨ Request a Feature](https://github.com/YOUR-USERNAME/YOUR-REPO/issues)
+[🌐 Live Demo](https://daily-bazar-dor-beige.vercel.app/) · [🐛 Report a Bug](https://github.com/AtefEzaz/BazarDor-app/issues) · [✨ Request a Feature](https://github.com/AtefEzaz/BazarDor-app/issues)
 
 </div>
 
 ---
+
+## 📑 Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Data Source](#-data-source)
+- [Getting Started](#-getting-started)
+- [Deployment](#️-deployment-vercel)
+- [Roadmap](#️-roadmap)
+- [Contributing](#-contributing)
+- [Author](#-author)
 
 ## 📖 About the Project
 
 **BazarDor (বাজার দর)** is a fully responsive, Bangla-first web application that helps people track the daily market prices of everyday essentials. Users can see today's price movers, browse products by category, sort by price, and — after signing in — compare prices across different bazars with minimum, maximum and average values.
 
 The project was built as part of the **Programming Hero B14-A7** assignment, using the Next.js App Router with BetterAuth and MongoDB for authentication.
+
+🔗 **Live site:** https://daily-bazar-dor-beige.vercel.app/
 
 ## ✨ Key Features
 
@@ -92,8 +107,8 @@ The app tries the main API first and automatically falls back to two alternative
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/AtefEzaz/BazarDor-app.git
+cd BazarDor-app
 ```
 
 ### 2. Install dependencies
@@ -141,21 +156,10 @@ npm start
 
 1. Push the project to GitHub.
 2. Import the repository in [Vercel](https://vercel.com/new).
-3. Add the same environment variables from your `.env` file, and set `BETTER_AUTH_URL` to your live site URL (for example `https://your-app.vercel.app`).
+3. Add the same environment variables from your `.env` file, and set `BETTER_AUTH_URL` to your live site URL (for example `https://daily-bazar-dor-beige.vercel.app`).
 4. Click **Deploy**.
 5. In MongoDB Atlas, allow Vercel to connect under **Network Access** (for example `0.0.0.0/0`).
-
-## 🖼️ Screenshots
-
-> Add your screenshots to a `screenshots/` folder and update the paths below.
-
-| Home | Category |
-|---|---|
-| ![Home](screenshots/home.png) | ![Category](screenshots/category.png) |
-
-| Product Details | Sign In |
-|---|---|
-| ![Product](screenshots/product.png) | ![Sign In](screenshots/signin.png) |
+6. Redeploy after changing any environment variable.
 
 ## 🗺️ Roadmap
 
@@ -166,13 +170,20 @@ npm start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome. Feel free to open an issue or submit a pull request.
+Contributions, issues and feature requests are welcome.
+
+1. Fork the project
+2. Create your branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m "Add amazing feature"`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a pull request
 
 ## 👨‍💻 Author
 
 **Atef Akbar Ezaz**
 
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- GitHub: [@AtefEzaz](https://github.com/AtefEzaz)
+- Project: [BazarDor-app](https://github.com/AtefEzaz/BazarDor-app)
 
 ## 📄 License
 
